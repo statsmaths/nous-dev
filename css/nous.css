@@ -1,0 +1,36 @@
+.navbar-custom {
+  background-color: #ffffff !important;
+}
+
+.navbar-custom .nav-item .nav-link {
+	color: black !important;
+}
+
+.navbar-custom .nav-item .nav-link:hover,
+.navbar-custom .nav-item .nav-link.active {
+	color: orange !important;
+}
+
+.navbar-custom .navbar-brand.logo-text {
+  color: black !important;
+  opacity: 0.0;
+  transition: opacity 2s;
+}
+
+.navbar-custom.top-nav-collapse .navbar-brand.logo-text {
+  color: black !important;
+  opacity: 1.0;
+}
+
+.header .header-content {
+  top: 45px !important;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.basic-1 {
+  border-top: 6px solid black;
+}
