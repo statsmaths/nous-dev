@@ -25,8 +25,7 @@ body {
 }
 
 p {
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: left;
 }
 
 .p-large {
@@ -319,6 +318,10 @@ a:hover {
   padding-left: 15px;
 }
 
+.top-red {
+  border-top: 8px solid var(--nous-red);
+}
+
 .multi {
   border-top: 8px solid var(--nous-red);
   padding-top: 15px;
@@ -326,13 +329,48 @@ a:hover {
   padding-left: 25px;
 }
 
-.center > p, h2 {
+.center > p {
   text-align: center !important;
 }
 
 .profile-image {
   border-radius: 50% !important;
   margin: 15px
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media > a > img {
+  height: 45px !important;
+  padding: 3px;
+}
+
+.press {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.press > a > img {
+  height: 45px !important;
+  padding: 5px;
+  padding-left: 15px;
+  vertical-align: middle;
+}
+
+.press > span {
+  padding-right: 10px;
+}
+
+.hidden-sml {
+  display: none;
+}
+
+.full-width {
+  width: 100%;
 }
 
 /******************************/
@@ -505,6 +543,10 @@ a:hover.back-to-top {
 
 
 @media (min-width: 1200px) {
+
+  .hidden-sml {
+    display: inherit;
+  }
 
 	.p-heading {
 		width: 55%;
